@@ -1,0 +1,32 @@
+img{
+    width: 200px;
+}
+body{
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    text-align: center;
+}
+#h1{
+    color: crimson;
+}
+#h2{
+    color: deeppink;
+}
+#span{
+    font-family: 'Cinzel Decorative', cursive;
+}
+.menu { list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10; 
+}
+.links { float: left;
+    color: fuchsia;
+    padding-top: 5px;
+    padding-left: 9px; padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px
+}
+.links:hover { background-color: aqua; }
